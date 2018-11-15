@@ -21,7 +21,7 @@ class KMeans():
         self.coordinate = np.array([np.append(x1, x2), np.append(y1, y2)])
 
     def gen_uk(self, k=2):
-        # np.random.shuffle(self.coordinate.T)
+        np.random.shuffle(self.coordinate.T)
         cols=self.coordinate.shape[1]
         len_div = cols // k
         self.uk = np.empty((2, k))
