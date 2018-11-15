@@ -1,0 +1,13 @@
+insert into RCDATA.RC_SERVICE_PERMISSION_POLICY (ID, SERVICE_ID, SERVICE_CLUSTER_ID, PERMISSION_CLUSTER_ID, CREATED_USER, CREATED_DATE, UPDATED_USER, UPDATED_DATE, D_FLAG)
+values ('64e207a0-03db-4021-93df-977c75c7b1de', 'com.cmrh.claim.pubesb.getMedicalDepartmentList', '2c829afc-83b1-47d2-a946-0ab5715b9d54', '1ae3d5c0-d302-4a6d-a39d-c493dbbbf406', 'SYSTEM@CMRH', to_date('30-07-2013 15:45:45', 'dd-mm-yyyy hh24:mi:ss'), 'SYSTEM@CMRH', to_date('30-07-2013 15:45:45', 'dd-mm-yyyy hh24:mi:ss'), 'N');
+
+insert into RCDATA.RC_SERVICE_PERMISSION_POLICY (ID, SERVICE_ID, SERVICE_CLUSTER_ID, PERMISSION_CLUSTER_ID, CREATED_USER, CREATED_DATE, UPDATED_USER, UPDATED_DATE, D_FLAG)
+values ('08e34aae-36af-433a-9369-0ea8706011c9', 'com.cmrh.claim.pubesb.getRelationshipList', '2c829afc-83b1-47d2-a946-0ab5715b9d54', '1ae3d5c0-d302-4a6d-a39d-c493dbbbf406', 'SYSTEM@CMRH', to_date('30-07-2013 15:45:45', 'dd-mm-yyyy hh24:mi:ss'), 'SYSTEM@CMRH', to_date('30-07-2013 15:45:45', 'dd-mm-yyyy hh24:mi:ss'), 'N');
+
+insert into RCDATA.RC_SERVICE_PERMISSION_POLICY (ID, SERVICE_ID, SERVICE_CLUSTER_ID, PERMISSION_CLUSTER_ID, CREATED_USER, CREATED_DATE, UPDATED_USER, UPDATED_DATE, D_FLAG)
+values ('e9ad5e8c-0d77-4e08-8ed9-992b6e3f210c', 'com.cmrh.claim.pubesb.getHospitals', '2c829afc-83b1-47d2-a946-0ab5715b9d54', '1ae3d5c0-d302-4a6d-a39d-c493dbbbf406', 'SYSTEM@CMRH', to_date('30-07-2013 15:45:45', 'dd-mm-yyyy hh24:mi:ss'), 'SYSTEM@CMRH', to_date('30-07-2013 15:45:45', 'dd-mm-yyyy hh24:mi:ss'), 'N');
+
+insert into RCDATA.RC_SERVICE_PERMISSION_POLICY (ID, SERVICE_ID, SERVICE_CLUSTER_ID, PERMISSION_CLUSTER_ID, CREATED_USER, CREATED_DATE, UPDATED_USER, UPDATED_DATE, D_FLAG)
+values ('439c0392-f172-4efa-b1bf-e8b9175d651c', 'com.cmrh.claim.pubesb.getAccidentStateList', '2c829afc-83b1-47d2-a946-0ab5715b9d54', '1ae3d5c0-d302-4a6d-a39d-c493dbbbf406', 'SYSTEM@CMRH', to_date('30-07-2013 15:45:45', 'dd-mm-yyyy hh24:mi:ss'), 'SYSTEM@CMRH', to_date('30-07-2013 15:45:45', 'dd-mm-yyyy hh24:mi:ss'), 'N');
+
+insert into RCDATA.RC_SERVICE_PERMISSION_POLICY (ID, SERVICE_ID,
