@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c882ff75-456e-4a59-a725-4d89927a7890" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/web/megasql.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prml/kmeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/prml/kmeans.py" afterDir="false" />
     </list>
@@ -15,10 +16,10 @@
     <session id="238423015">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="77" />
+          <entry key="project.closed" value="78" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="8" />
-          <entry key="project.open.time.10" value="12" />
+          <entry key="project.open.time.10" value="13" />
           <entry key="project.open.time.11" value="4" />
           <entry key="project.open.time.12" value="4" />
           <entry key="project.open.time.13" value="3" />
@@ -30,7 +31,7 @@
           <entry key="project.open.time.7" value="12" />
           <entry key="project.open.time.8" value="11" />
           <entry key="project.open.time.9" value="13" />
-          <entry key="project.opened" value="78" />
+          <entry key="project.opened" value="79" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -40,8 +41,9 @@
           <entry key="file" value="1" />
           <entry key="ipynb" value="10" />
           <entry key="json" value="3" />
-          <entry key="py" value="167" />
+          <entry key="py" value="170" />
           <entry key="pyi" value="7" />
+          <entry key="sql" value="2" />
           <entry key="txt" value="9" />
         </counts>
       </usages-collector>
@@ -50,8 +52,9 @@
           <entry key="IPNB" value="10" />
           <entry key="JSON" value="3" />
           <entry key="PLAIN_TEXT" value="12" />
-          <entry key="Python" value="167" />
+          <entry key="Python" value="170" />
           <entry key="PythonStub" value="7" />
+          <entry key="SQL" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -59,59 +62,29 @@
           <entry key="Python Console" value="6192" />
           <entry key="aa" value="14" />
           <entry key="dummy" value="18" />
-          <entry key="py" value="24430" />
-          <entry key="txt" value="9" />
+          <entry key="py" value="24532" />
+          <entry key="txt" value="74" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="41" />
-          <entry key="Python" value="30622" />
+          <entry key="PLAIN_TEXT" value="106" />
+          <entry key="Python" value="30724" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prml/mixtureModels.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/prml/kmeans.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="42" column="45" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
+            <state relative-caret-position="207">
+              <caret line="64" column="80" lean-forward="true" selection-start-line="64" selection-start-column="80" selection-end-line="64" selection-end-column="80" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <marker date="1542295558604" expanded="true" signature="68:74" ph="..." />
+                <marker date="1542374300680" expanded="true" signature="68:74" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/virtualenv/python3/lib/python3.6/site-packages/numpy/lib/shape_base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="1073" column="23" lean-forward="true" selection-start-line="1073" selection-start-column="23" selection-end-line="1073" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.2/python_stubs/1248207177/numpy/random/mtrand.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53020">
-              <caret line="2414" column="50" selection-start-line="2414" selection-start-column="22" selection-end-line="2414" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -145,8 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ch1/aa" />
-        <option value="$PROJECT_DIR$/ch1/py000.py" />
         <option value="$PROJECT_DIR$/bayes01.py" />
         <option value="$PROJECT_DIR$/bayes/bayes01.py" />
         <option value="$PROJECT_DIR$/bayes/pyb1.ipynb" />
@@ -195,6 +166,8 @@
         <option value="$PROJECT_DIR$/leetcode/treenode.py" />
         <option value="$PROJECT_DIR$/prml/mixtureModels.py" />
         <option value="$PROJECT_DIR$/web/fileupload.py" />
+        <option value="$PROJECT_DIR$/web/sql" />
+        <option value="$PROJECT_DIR$/web/megasql.py" />
         <option value="$PROJECT_DIR$/prml/kmeans.py" />
       </list>
     </option>
@@ -210,7 +183,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -218,10 +190,16 @@
               <item name="python3" type="b2602c69:ProjectViewProjectNode" />
               <item name="python3" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="python3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python3" type="462c0819:PsiDirectoryNode" />
+              <item name="prml" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -271,27 +249,6 @@
       <option name="ipnbPort" value="8888" />
       <method v="2" />
     </configuration>
-    <configuration name="conn" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python3" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/redis" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/redis/conn.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="kmeans" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -305,6 +262,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prml/kmeans.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="megasql" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web/megasql.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -378,19 +356,19 @@
     </configuration>
     <list>
       <item itemvalue="Jupyter Notebook.python3" />
-      <item itemvalue="Python.conn" />
       <item itemvalue="Python.rand" />
       <item itemvalue="Python.pascalTri" />
       <item itemvalue="Python.mixtureModels" />
       <item itemvalue="Python.kmeans" />
+      <item itemvalue="Python.megasql" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.kmeans" />
+        <item itemvalue="Python.megasql" />
         <item itemvalue="Python.mixtureModels" />
         <item itemvalue="Python.pascalTri" />
         <item itemvalue="Python.rand" />
-        <item itemvalue="Python.conn" />
       </list>
     </recent_temporary>
   </component>
@@ -412,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542288688700</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="format lines and points for clarification">
+      <created>1542295803627</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1542295803627</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -428,13 +413,13 @@
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49315068" weight="0.19094767" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49315068" visible="true" weight="0.19094767" />
       <window_info id="Structure" order="1" sideWeight="0.5068493" side_tool="true" weight="0.24257426" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32944608" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3819242" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49858558" weight="0.39941692" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49858558" weight="0.39795917" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3292232" />
@@ -471,7 +456,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="shuffle" />
-    <option name="LAST_COMMIT_MESSAGE" value="shuffle" />
+    <MESSAGE value="format lines and points for clarification" />
+    <option name="LAST_COMMIT_MESSAGE" value="format lines and points for clarification" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -631,6 +617,11 @@
           <line>64</line>
           <option name="timeStamp" value="83" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/prml/kmeans.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -644,12 +635,12 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>self.pt_labels</expression-string>
+        <expression-string>self.coordinate</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>self.coordinate</expression-string>
+        <expression-string>self.pt_labels</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -691,16 +682,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/collections/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12056">
-          <caret line="549" column="31" selection-start-line="549" selection-start-column="31" selection-end-line="549" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/heapq.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/queue.pyi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-239" />
@@ -920,13 +901,6 @@
     <entry file="file://$PROJECT_DIR$/leetcode/treenode.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/fileupload.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysite/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -992,6 +966,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/virtualenv/python3/lib/python3.6/site-packages/numpy/lib/shape_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23342">
+          <caret line="1073" column="23" selection-start-line="1073" selection-start-column="23" selection-end-line="1073" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.2/python_stubs/1248207177/numpy/random/mtrand.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="53020">
@@ -999,20 +980,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/virtualenv/python3/lib/python3.6/site-packages/numpy/lib/shape_base.py">
+    <entry file="file://$PROJECT_DIR$/web/sql">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/megasql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="1073" column="23" lean-forward="true" selection-start-line="1073" selection-start-column="23" selection-end-line="1073" selection-end-column="23" />
+        <state relative-caret-position="44">
+          <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/fileupload.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/prml/kmeans.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="42" column="45" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
+        <state relative-caret-position="207">
+          <caret line="64" column="80" lean-forward="true" selection-start-line="64" selection-start-column="80" selection-end-line="64" selection-end-column="80" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <marker date="1542295558604" expanded="true" signature="68:74" ph="..." />
+            <marker date="1542374300680" expanded="true" signature="68:74" ph="..." />
           </folding>
         </state>
       </provider>

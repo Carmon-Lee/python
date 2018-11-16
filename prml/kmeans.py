@@ -36,11 +36,11 @@ class KMeans():
 
     def plot_pts(self):
         print('plot the random data...')
-        plt.scatter(self.coordinate[0][self.pt_labels[0]==1],self.coordinate[1][self.pt_labels[1]==0],color='r')
-        plt.scatter(self.coordinate[0][self.pt_labels[0]==0],self.coordinate[1][self.pt_labels[1]==1],color='b')
+        plt.scatter(self.coordinate[0][self.pt_labels[0]==1],self.coordinate[1][self.pt_labels[1]==0],color='y',marker=',')
+        plt.scatter(self.coordinate[0][self.pt_labels[0]==0],self.coordinate[1][self.pt_labels[1]==1],color='g',marker=',')
 
-        plt.scatter(self.uk[0][0],self.uk[1][0],color='r',marker='*')
-        plt.scatter(self.uk[0][1],self.uk[1][1],color='b',marker='*')
+        plt.scatter(self.uk[0][0],self.uk[1][0],color='r',marker='^')
+        plt.scatter(self.uk[0][1],self.uk[1][1],color='b',marker='^')
         plt.show()
 
     def startEM(self):
@@ -55,7 +55,7 @@ class KMeans():
         pts = np.tile(self.coordinate, (num_clusters, 1))
         uks = np.tile(self.uk.T.reshape((1, num_clusters * 2)), (self.num_pts, 1)).T
         square = (pts - uks) ** 2
-        sum_square = np.array([square[0, :] + square[2, :], square[1, :] + square[3, :]])
+        sum_square = np.array([square[0, :] + square[1, :], square[2, :] + square[3, :]])
         self.pt_labels[sum_square < np.mean(sum_square, axis=0)] = 1
         print()
 
@@ -68,9 +68,10 @@ class KMeans():
 
 
 if __name__ == '__main__':
-    kmeans = KMeans(10, (0, 0), (5, 8))
+    kmeans = KMeans(20, (0, 0), (5, 5))
     kmeans.gen_uk(2)
-    kmeans.plot_pts()
+    # kmeans.plot_pts()
+    kmeans.startEM()
     kmeans.startEM()
     kmeans.startEM()
     kmeans.startEM()
