@@ -1,11 +1,30 @@
 import numpy as np
 from collections import Counter
 
+rules = {
+    'equals': lambda x, y: x == y,
+    'greater': lambda x, y: x > y
+}
+
 
 class DecisionTree:
+    class Node:
+
+        def __init__(self):
+            pass
+
     def __init__(self, X, y):
         self.X, self.y = X, y
         self.c = Counter(y)
+        self.pos_rule = (1, rules['greater'], 'a')
+        self.neg_rule = (1, rules['greater'], 'a')
+
+        self.rule = (0, rules['equals'], 'r')
+        pass
+
+    def make_decision(self, x):
+        #   receive a feature input,and output the feature class
+
         pass
 
     def entropy(self, y):
@@ -40,6 +59,8 @@ class DecisionTree:
         return min_feature.index(min(min_feature))
 
 
+
+
 if __name__ == '__main__':
     # https://blog.csdn.net/z962013489/article/details/80024574
     dt = DecisionTree(np.array([['g', 'h', 't'],
@@ -54,4 +75,8 @@ if __name__ == '__main__':
     # print(dt.gain(dt.X, 0))
     # print(dt.gain(dt.X, 1))
     # print(dt.gain(dt.X, 2))
-    print(dt.max_cond_ent(dt.X, dt.y))
+    # print(dt.max_cond_ent(dt.X, dt.y))
+    print(dt.make_decision('g'))
+    print(dt.make_decision('r'))
+
+
